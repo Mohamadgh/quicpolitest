@@ -1,0 +1,11 @@
+https://quic.deib.polimi.it, http://quic.deib.polimi.it, 131.175.120.85:2017 {
+
+#root /home/quicgdr/Documents/quic_deib_polimi_it
+#ext .html .htm .php    
+#gzip
+errors caddylog/caddy-errors.log
+log caddylog/caddy-logs.log
+
+}
+
+
